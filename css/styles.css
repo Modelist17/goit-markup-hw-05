@@ -515,3 +515,13 @@ button {
 .main-social-icon {
   fill: #f4f4fd;
 }
+
+/* SECTION FOR THE FORM */
+.subscribe-paragraph {
+  margin-bottom: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
