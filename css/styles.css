@@ -758,6 +758,6 @@ button {
   margin-right: 8px;
 }
 
-.user-privacy-class:checked + span {
+.user-privacy-class:checked + user-span-class {
   background-color: #404bbf;
 }
