@@ -677,6 +677,9 @@ button {
 
 .input-class-second:focus {
   border-color: #4d5ae5;
+}
+
+.input-class-second:focus + svg {
   fill: #4d5ae5;
 }
 
