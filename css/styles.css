@@ -760,19 +760,27 @@ button {
 
 .user-privacy-class:checked + label > span {
   background-color: #404bbf;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
   border: none;
-  }
+}
 
 .class-for-policy {
   color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  text-decoration-line: underline;
 }
 
 .send-button {
+  margin: auto;
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
