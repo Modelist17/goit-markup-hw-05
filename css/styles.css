@@ -758,6 +758,6 @@ button {
   margin-right: 8px;
 }
 
-.user-span-class:checked + input {
+input[type="checkbox"]:checked + span {
   background-color: #404bbf;
 }
