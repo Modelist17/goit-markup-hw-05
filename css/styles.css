@@ -713,7 +713,7 @@ button {
 }
 
 .text-for-comm:focus {
-  border-color: #4D5AE5; 
+  border-color: #4d5ae5;
 }
 
 .container-for-checkbox {
@@ -731,4 +731,33 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.user-privacy-class {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.04em;
+  color: var(--LIGHT-SLATE, #8e8f99);
+  color: #8e8f99;
+}
+
+.user-span-class {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+}
+
+.user-privacy-class:checked + span {
+  background-color: #404bbf;
 }
