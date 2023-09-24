@@ -1,160 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-.link {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-}
-
-/*  PAGE HEADER */
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.container-header {
-  display: flex;
-  align-items: center;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.page-navigation {
-  display: flex;
-  align-items: center;
-}
-
-.logotype {
-  margin-right: 76px;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-}
-
-.list {
-  list-style-type: none;
-}
-
-.body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-
-button {
-  cursor: pointer;
-}
-
-.logotype {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.address-list {
-  font-style: normal;
-  margin-left: auto;
-}
-
-.menu-link {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 24px 0;
-  position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px 0;
-  display: block;
-}
-
-.current::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  width: 100%;
-  display: block;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-  color: #404bbf;
-}
-
-.number-mail-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.number-mail {
-  display: flex;
-  gap: 40px;
-}
-
-.number-mail-link:hover,
-.number-mail-link:focus {
-  color: #404bbf;
-  color: #404bbf;
-}
-
-.span-class {
-  color: #2e2f42;
-}
-
-/* section 1 - (HERO) */
-.first-section {
-  background-color: #2e2f42;
-  padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office-1nonly.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .caption-one {
   font-size: 56px;
@@ -194,32 +37,6 @@ button {
   color: #ffffff;
   background-color: #404bbf;
 }
-/* section 2 */
-.second-section {
-  padding: 120px 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.second-section-ul {
-  display: flex;
-  gap: 24px;
-}
-
-.li-class-section-two {
-  width: calc((100% - 72px) / 4);
-}
 
 /* div-classes-for-icons */
 .icon-antenna-one {
@@ -251,12 +68,6 @@ button {
   letter-spacing: 0.02em;
 }
 
-/* section 3 */
-.third-section {
-  background-color: #f4f4fd;
-  padding: 120px 0;
-}
-
 .our-team-pics {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -266,10 +77,6 @@ button {
 
 .our-team-pics {
   width: calc((100% - 72px) / 4);
-}
-/* container for the name and the job position */
-.container-team {
-  padding: 32px 0;
 }
 
 /* (h2) */
@@ -281,12 +88,6 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
-
-.section-three-ul {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
 }
 
 /* (h3) */
@@ -340,49 +141,6 @@ button {
   fill: #f4f4fd;
 }
 
-/* section 4 */
-.fourth-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-/* (h2) */
-.section-four-caption {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
-}
-
-.section-four-ul {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-/* .section-four-ul:hover {
-  
-} */
-
-.li-class-section-four {
-  width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.li-class-section-four:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.container-image-div {
-  position: relative;
-  overflow: hidden;
-}
-
 .stylish-paragraph {
   position: absolute;
   top: 0;
@@ -398,32 +156,7 @@ button {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.li-class-section-four:hover .stylish-paragraph {
-  transform: translateY(0%);
-}
-
-.container-app {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
 .bank-app-paragraph {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.section-four-caption-three {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.section-four-caption-3-1 {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -447,19 +180,6 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
-/* div for p and logo */
-.container-footer-div {
-  margin-right: 120px;
-}
-
-.container-footer {
-  display: flex;
-}
-
-/* .container-footer-div {
-  margin-right: 120px;
-} */
 
 .span-class-footer {
   color: #f4f4fd;
@@ -575,18 +295,6 @@ button {
 
 .icon-for-sub {
   margin-left: 16px;
-}
-
-/* MODAL WINDOW */
-.container-modal-window {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-window {
@@ -714,23 +422,6 @@ button {
 
 .text-for-comm:focus {
   border-color: #4d5ae5;
-}
-
-.container-for-checkbox {
-  margin-bottom: 24px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .user-privacy-class {
