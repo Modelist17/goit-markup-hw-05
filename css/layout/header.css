@@ -84,7 +84,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
-  padding: 24px;
 }
 
 .list {
@@ -134,7 +133,6 @@
 
 .list-socials {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
