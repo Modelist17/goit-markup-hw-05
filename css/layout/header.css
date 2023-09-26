@@ -62,7 +62,6 @@
 }
 
 .mobile-menu {
-
   display: flex;
   flex-direction: column;
   padding: 72px 24px 40px 16px;
@@ -82,11 +81,22 @@
 }
 
 /* menu for phone */
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
+/* @media screen and (min-width: 320px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
 }
 
 .list {
