@@ -1,3 +1,4 @@
+
 .menu {
   display: none;
 }
@@ -81,6 +82,12 @@
 }
 
 /* menu for phone */
+.menu-mob {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -186,6 +193,10 @@
   .address-list {
     display: flex;
   }
+}
+
+@media screen and (min-width: 1168px) {
+
 }
 /*  PAGE HEADER */
 /* .page-header {
