@@ -24,6 +24,8 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -35,3 +37,4 @@ button {
   color: #434455;
   background-color: #ffffff;
 }
+
