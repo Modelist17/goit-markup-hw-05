@@ -4,7 +4,7 @@
 
 /* MOBILE */
 
-.first-section {
+/* .first-section {
   background-color: var(--GREY, rgba(46, 47, 66, 0.7));
   padding-top: 72px;
   padding-bottom: 72px;
@@ -19,7 +19,7 @@
   background-size: cover;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
