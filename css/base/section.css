@@ -3,23 +3,24 @@
 /* for pc */
 
 /* MOBILE */
-
-/* .first-section {
-  background-color: var(--GREY, rgba(46, 47, 66, 0.7));
-  padding-top: 72px;
-  padding-bottom: 72px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../../images/Dark-bg-mobile-min.jpg);
-  max-width: 320px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-right: auto;
-  margin-left: auto;
-} */
+@media screen and (max-width: 767px) {
+  .first-section {
+    background-color: var(--GREY, rgba(46, 47, 66, 0.7));
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/Dark-bg-mobile-min.jpg);
+    max-width: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -1105,7 +1106,7 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  } 
+  }
 
   /* section 4 */
   .fourth-section {
@@ -1203,7 +1204,7 @@
   .container-footer {
     display: flex;
   }
-  
+
   .container-footer-div {
     margin-right: 120px;
   }
@@ -1219,11 +1220,11 @@
     text-transform: uppercase;
     color: #4d5ae5;
   }
-  
+
   .span-class-footer {
     color: #f4f4fd;
   }
-  
+
   .footer-paragraph {
     color: #f4f4fd;
     font-size: 16px;
@@ -1231,7 +1232,7 @@
     letter-spacing: 0.32px;
     width: 264px;
   }
-  
+
   .social-footer-text {
     font-weight: 500;
     font-size: 16px;
@@ -1240,18 +1241,18 @@
     color: #ffffff;
     margin-bottom: 16px;
   }
-  
+
   .main-social-list {
     display: flex;
     gap: 16px;
   }
-  
+
   .main-social-item {
     width: 40px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .main-social-link {
     width: 100%;
     height: 100%;
@@ -1262,17 +1263,17 @@
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .main-social-link:hover,
   .main-social-link:focus {
     background-color: #31d0aa;
     background-color: #31d0aa;
   }
-  
+
   .main-social-icon {
     fill: #f4f4fd;
-  } 
-  
+  }
+
   /* SECTION FOR THE FORM */
   .subscribe-paragraph {
     margin-bottom: 16px;
@@ -1281,21 +1282,21 @@
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
-  } 
-  
+  }
+
   /* FORM */
   .subscribe-div {
     margin-left: 80px;
   }
-  
+
   .form-for-email {
     display: flex;
   }
-  
+
   .form-for-email {
     gap: 24px;
   }
-  
+
   .input-class {
     width: 264px;
     height: 40px;
@@ -1309,11 +1310,11 @@
     border-radius: 4px;
     color: #ffffff;
   }
-  
+
   ::placeholder {
     color: #ffffff;
   }
-  
+
   .subscribe-button {
     min-width: 165px;
     height: 40px;
@@ -1331,11 +1332,11 @@
     border: none;
     border-radius: 4px;
   }
-  
+
   .icon-for-sub {
     margin-left: 16px;
   }
-  
+
   .modal-window {
     position: absolute;
     top: 50%;
@@ -1350,7 +1351,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
   }
-  
+
   .modal-window-button {
     position: absolute;
     top: 24px;
@@ -1368,7 +1369,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .modal-window-button:hover,
   .modal-window-button:focus {
     fill: #ffffff;
@@ -1378,11 +1379,11 @@
     background-color: #404bbf;
     border: none;
   }
-  
+
   .icon-for-modal-window {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .after-footer-paragraph {
     font-weight: 500;
     font-size: 16px;
@@ -1392,11 +1393,11 @@
     color: #2e2f42;
     margin-bottom: 16px;
   }
-  
+
   .the-form {
     margin-bottom: 8px;
-  } 
-  
+  }
+
   /* second label */
   .name-class {
     font-size: 12px;
@@ -1406,11 +1407,11 @@
     display: block;
     margin-bottom: 4px;
   }
-  
+
   .input-icon {
     position: relative;
   }
-  
+
   .input-class-second {
     width: 100%;
     height: 40px;
@@ -1421,15 +1422,15 @@
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .input-class-second:focus {
     border-color: #4d5ae5;
   }
-  
+
   .input-class-second:focus + svg {
     fill: #4d5ae5;
   }
-  
+
   .person-icon {
     position: absolute;
     left: 16px;
@@ -1437,11 +1438,11 @@
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .text-input-field {
     margin-bottom: 16px;
   }
-  
+
   .text-for-comm {
     width: 100%;
     height: 120px;
@@ -1458,21 +1459,21 @@
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .text-for-comm:focus {
     border-color: #4d5ae5;
   }
-  
+
   .user-privacy-class {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.17; 
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--LIGHT-SLATE, #8e8f99);
     color: #8e8f99;
   }
-  
+
   .user-span-class {
     width: 16px;
     height: 16px;
@@ -1487,13 +1488,13 @@
     fill: transparent;
     margin-right: 8px;
   }
-  
+
   .user-privacy-class:checked + label > span {
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
   }
-  
+
   .class-for-policy {
     color: #4d5ae5;
     font-family: Roboto, sans-serif;
@@ -1504,7 +1505,7 @@
     letter-spacing: 0.48px;
     text-decoration-line: underline;
   }
-  
+
   .send-button {
     margin: auto;
     display: block;
@@ -1514,7 +1515,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5; 
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
@@ -1522,5 +1523,5 @@
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  } 
+  }
 }

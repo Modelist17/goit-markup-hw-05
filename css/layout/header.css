@@ -313,6 +313,11 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .container-header {
+    display: flex;
+    align-items: center;
+  }
+
   .page-navigation {
     display: flex;
     align-items: center;
@@ -385,6 +390,7 @@
   .number-mail {
     display: flex;
     gap: 40px;
+    align-items: center;
   }
 
   .number-mail-link:hover,
